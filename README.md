@@ -7,6 +7,5 @@ http://lapomeray.com/Commuter
 ## Live Web App
 http://lapomeray.com/Beta/AdelphiCommuter
 
-![App Img](http://lapomeray.com/static/media/CommuterImg2.5b2a7886.png)
 
 
