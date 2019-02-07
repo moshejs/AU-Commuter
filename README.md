@@ -1,6 +1,6 @@
 
 ## Live App
-This web app helps Adelphi University commuter students navigate using the shuttle bus services
+This web app helps Adelphi University students navigate using the shuttle bus services
 
 http://aushuttle.com
 
