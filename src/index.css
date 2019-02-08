@@ -1,0 +1,666 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+*{font-family: Montserrat;}
+
+select{
+  -webkit-appearance: button-bevel;
+  -moz-appearance:    menulist-button;
+  }
+
+
+
+.top{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  background-color: white;
+  padding-top: 60px;
+}
+
+.top1{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 45px 0 0;
+}
+
+.top1-h1{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+  color: #07167c;
+  margin: 0;
+  padding: 50px 0 15px 30px;
+}
+
+.top1-h1a{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 50px;
+  color: #07167c;
+  margin: 0;
+  padding: 0 0 15px 30px;
+}
+
+.top1-h2{
+  font-family: Montserrat;
+  font-size: 19px;
+  color: #4b4b5a;
+  margin: 0;
+  padding: 0 0 25px 30px;
+}
+
+.top1-h3{
+  font-family: Montserrat;
+  font-size: 18px;
+  color: black;
+  margin: 0;
+  padding: 0 30px 30px 30px;
+  line-height: 1.8;
+}
+
+.top1-img{
+  height:500px;
+}
+
+.top1-button{
+  width: 170px;
+  height: 50px;
+  background-color: #5784FF;
+  color: white;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 30px 30px;
+  outline: none;
+
+}
+
+
+.banner1 , .banner2 , .banner3 , .banner4 {
+  margin-bottom: 100px;
+  padding: 0 100px 0 100px;
+}
+
+.banner1{
+  padding-top: 75px;
+}
+
+.HomeBase{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.HomeGrid{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 0 0 0;
+  justify-content: center;
+
+}
+
+
+.HomeItem{
+  flex: none;
+  width: 40%;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.HomeItemTitle{
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+.HomeItemImg{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+
+}
+
+
+
+.Nav0{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 25px 0 25px;
+  align-items: baseline;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.email{
+  text-align: center;
+  align-items: baseline;
+  color: #1051F1;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: bolder;
+
+}
+
+
+.nav-share-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.nav-share{
+  text-decoration: none;
+}
+
+.nav-share-item{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 0 10px 0 10px;
+  border-radius: 8px;
+}
+
+.nav-share-item:hover {
+  background-color: #f8f8f8;
+}
+
+.nav-share-item-icon{
+  height: 16px;
+  margin-right: 10px;
+}
+
+.nav-share-item-text{
+  font-family: Montserrat;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.Nav1{
+  display: flex;
+  flex-direction: row;
+}
+
+.name, .title, .link {
+  padding-right: 15px;
+  font-family: Montserrat;
+
+}
+
+.name{
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+
+.title{
+  font-size: 15px;
+  color: #aaaaaa;
+  margin-left: 15px;
+}
+
+.link{
+  font-size: 18px;
+  color: #aaaaaa;
+}
+
+.ProjectDiv{
+  background-color: #F8F8F8;
+}
+
+
+.banner1{
+  display: flex;
+  flex-direction: row;
+  flex:1 2 2;
+}
+
+.banner2{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.banner3{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.diagramDiv1{
+display: block;
+}
+
+.play{
+font-family: Montserrat;
+font-size: 18px;
+text-align: center;
+background-color: white;
+border: 2px solid #0729CA;
+color: #0729CA;
+border-radius: 4px;
+outline: none;
+}
+
+
+
+.diagramDiv3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.Two-Img{
+  height: 500px;
+}
+
+.div3-detail{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.div3-detail-text{
+  color: #c1c1c1;
+  font-size: 12px;
+  text-align: center;
+}
+
+.discover{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 50px 100px 50px;
+}
+
+.discover-projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.discover-item{
+  flex:1;
+  justify-content: center;
+  margin-right: 45px;
+  margin-left: 45px;
+
+}
+
+
+
+.dicover-heading{
+  font-family: Montserrat;
+  font-size: 28px;
+  margin-left: 50px;
+
+}
+
+.discover-item-heading{
+  font-family: Montserrat;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.discover-item-caption{
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #999999;
+  text-decoration: none;
+}
+
+.discover-img{
+  height: 300px;
+}
+
+
+
+
+.proj-heading{
+  font-family: Montserrat;
+  font-size: 28px;
+  padding-bottom: 5px;
+}
+
+.proj-para{
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.8;
+  padding-right: 70px;
+}
+
+.shareDiv{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.textDiv{
+  padding: 80px 0 0 0;
+}
+
+.textDiv2{
+  padding: 30px 0 0 80px;
+}
+
+.textDiv3{
+}
+
+.textDiv4{
+  padding: 30px 200px 0 0;
+}
+
+
+.proj-img{
+  height: 500px;
+  flex:1;
+}
+
+.proj-video{
+  height: 500px;
+  flex: 1 1 auto;
+
+
+}
+
+.proj-video:hover{
+
+}
+
+.sharelink{
+
+}
+
+
+
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 50px 50px 50px;
+  margin-bottom: 45px;
+
+}
+
+.footer2{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  justify-content:space-around;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.footer-link{
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.footer-link:hover {
+  color: black;
+}
+.link-active{
+  color: black;
+}
+
+/* SHOP */
+
+.col{
+
+}
+
+.sketch-logo{
+  width: 130px;
+}
+
+
+.shi-div{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  margin: 30px 80px;
+
+}
+
+
+.shi-img{
+  width: 200px;
+  height: 270px;
+}
+
+.shi-div-2{
+  position: relative;
+  top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245,245,245 ,0.9);
+}
+
+.shi-name{
+  font-weight: 'Roboto';
+  font-size: 14px;
+  color: black;
+  text-align: center;
+
+}
+
+.shi-price{
+  font-weight: 'Roboto';
+  font-size: 14px;
+  color: black;
+  text-align: center;
+
+
+}
+
+.shop-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 140px 0px 50px 0px;
+  flex-flow: wrap;
+}
+
+
+.shop-item-1{
+  width: 100%;
+  height: 100%;
+}
+
+.shop-item-1{
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-item-2{
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+.shop-item-title{
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.shop-item-para{
+  font-family: Montserrat;
+  font-size: 22px;
+  padding: 0 50px;
+}
+
+.shop-item-button{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #0316F4;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 12px 30px;
+  width: 100px;
+
+}
+
+.shop-item-1 , .shop-item-2{
+  width: 50%;
+}
+
+.sketch-logo-2{
+  width: 100px;
+}
+
+
+@media only screen and (max-width: 770px) {
+
+  .top{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .HomeGrid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .HomeItem{
+    flex: none;
+    width: auto;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  .HomeItemImg{
+    width: auto;
+  }
+
+
+
+  .banner1{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap-reverse;
+    max-width: 425px;
+
+  }
+
+  .banner2{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    flex-wrap: wrap;
+
+  }
+
+  .banner3{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner4{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+  }
+
+  .proj-para{
+    padding: 0;
+    width: auto;
+  }
+
+
+
+  .textDiv2{
+    width: auto;
+    padding: 0;
+  }
+
+  .textDiv4{
+    padding: 0;
+  }
+
+
+
+  .discover{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .discover-projects{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+
+  .discover-img{
+    width: inherit;
+
+  }
+
+  .discover-item{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer{
+    display: none;
+  }
+
+  .Nav0{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 60px;
+  }
+
+  .top1-img{
+    display: none;
+  }
+
+  .nav-share-div{
+    display: none;
+  }
+
+  .title{
+    padding: 0;
+    margin: 0px;
+    display: inline-block;
+  }
+
+}

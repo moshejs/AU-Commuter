@@ -1,11 +1,7 @@
-# AU-Commuter
-From the LIRR to Roosevelt Field Mall, AU Commuter locates the nearest shuttle to get you to your destination
 
-## Case Study
-http://lapomeray.com/Commuter
+## Live App
+This web app helps Adelphi University students navigate using the shuttle bus services
 
-## Live Web App
-https://www.aushuttle.com/
+https://aushuttle.com
 
-
-
+![App Img](http://lapomeray.com/static/media/CommuterImg2.5b2a7886.png)
